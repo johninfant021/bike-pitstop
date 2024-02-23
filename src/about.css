@@ -1,0 +1,65 @@
+.bike_pic {
+  width: 300;
+  height: 300;
+  display: block;
+  justify-content: center;
+  margin: 50px auto 50px;
+  box-shadow: 20px 20px 20px;
+  border-radius: 20px;
+}
+
+/*.bike{
+    display: flex;
+column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(38 38 38);
+}*/
+.h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(251, 250, 250);
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-shadow: 5px 5px black;
+  text-transform: uppercase;
+}
+.p {
+  color: #1c1917;
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  background-image: radial-gradient(white, grey, white, #71717a);
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: #d6d3d1;
+  border-width: 20px;
+  border-radius: 50px;
+  box-shadow: 30px 30px 30px black;
+}
+
+.main_pic {
+  border-style: outset;
+  border-width: 20px;
+  border-color: #d6d3d1;
+  box-shadow: 30px 10px 20px rgb(0, 0, 0);
+}
+.main_pic:hover {
+  transform: skew(10deg);
+}
+@media (max-width: 700px) {
+  .main_pic {
+    height: 300px;
+    width: 400px;
+  }
+}
+footer {
+  color: #e5e7eb;
+  font-family: cursive;
+  text-align: center;
+  letter-spacing: 5px;
+}
