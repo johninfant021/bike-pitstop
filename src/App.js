@@ -14,8 +14,7 @@ function Cointainer() {
   return (
     <div>
       <header>
-        <img src={logo} alt="logo" />
-        {/* <h1 className="head2">grand Bike Pit stop</h1>*/}
+        <h1 className="head2">grand Bike Pit stop</h1>
       </header>
       <Router>
         <div className="link">

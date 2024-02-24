@@ -7,7 +7,11 @@
   box-shadow: 20px 20px 20px;
   border-radius: 20px;
 }
-
+@media (max-width: 415px) {
+  .bike_pic {
+    width: 300px;
+  }
+}
 /*.bike{
     display: flex;
 column-gap: 25px;
@@ -33,7 +37,7 @@ column-gap: 25px;
   text-align: center;
   margin: 50px;
   padding: 50px;
-  background-image: radial-gradient(white, grey, white, #71717a);
+  background-image: radial-gradient(white, grey);
   border-top-style: groove;
   border-bottom-style: groove;
   border-color: #d6d3d1;
@@ -51,10 +55,18 @@ column-gap: 25px;
 .main_pic:hover {
   transform: skew(10deg);
 }
-@media (max-width: 700px) {
+@media (max-width: 415px) {
   .main_pic {
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
+  }
+  .p {
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+
+    letter-spacing: 1;
   }
 }
 footer {

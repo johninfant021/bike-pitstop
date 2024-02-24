@@ -42,17 +42,6 @@
   margin: 30px 10px 30px;
   row-gap: 50px;
 }
-@media (max-width: 700px) {
-  .spare_grid {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    column-gap: 60px;
-    justify-content: space-around;
-  }
-  .spare_name {
-    text-align: center;
-  }
-}
 .spare_img {
   height: 200px;
   width: 200px;
@@ -62,6 +51,23 @@
 .spare_img:hover {
   transform: scale(80%);
   transition: 0.5s;
+}
+
+@media (max-width: 415px) {
+  .spare_grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 15px;
+    justify-content: space-around;
+  }
+  .spare_img {
+    height: 100px;
+    width: 100px;
+  }
+  .spare_name {
+    text-align: center;
+    font-size: 20px;
+  }
 }
 footer {
   color: #e5e7eb;
